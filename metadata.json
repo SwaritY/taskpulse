@@ -1,0 +1,6 @@
+{
+  "name": "TaskPulse",
+  "description": "Modern productivity dashboard and task manager with responsive sidebar navigation, interactive filtering, priority tagging, and localStorage persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
