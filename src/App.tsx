@@ -6,6 +6,7 @@ import {
   Search,
   X,
 } from 'lucide-react';
+import { Footer } from './components/Footer';
 import { DragEvent, useEffect, useMemo, useRef, useState } from 'react';
 import { AnalyticsView } from './components/AnalyticsView';
 import { QuickAddBar } from './components/QuickAddBar';
@@ -784,6 +785,7 @@ export default function App() {
           </button>
         </div>
       )}
+      <Footer/>
     </div>
   );
 }
