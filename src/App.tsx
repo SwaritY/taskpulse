@@ -742,14 +742,20 @@ export default function App() {
                               setSearchQuery('');
                             }}
                             className="inline-flex h-10 items-center rounded-lg border border-[#E2E8F0] bg-[#FFFFFF] px-4 text-sm font-medium text-[#0B1C30] hover:bg-[#F8FAFC] transition-colors"
-        {/* Main Viewport */}
-        <main className="mx-auto w-full max-w-[1440px] flex-1 px-4 py-6 sm:px-6 lg:px-10 lg:py-8">
-          <div className="flex flex-col gap-6">
-            {/* ... your metrics, quick add, and task board ... */}
+                          >
+                            Reset Filters
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </section>
+              </>
+            )}
           </div>
         </main>
 
-        {/* Footer moved inside the column stack */}
+        {/* Footer positioned correctly at the bottom of the main flex column */}
         <Footer />
       </div>
 
